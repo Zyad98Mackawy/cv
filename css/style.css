@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+}
+
+.white-font {
+  color: #fff;
+}
+
+.bg-color-grey {
+  background-color: #353535;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  font-family: "hobo std medium";
+}
+
+.home .bg-image {
+  background-image: url("..\\img\\1.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home .bg-text {
+  color: #35f;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  -webkit-text-stroke: 1px #353535;
+}
+
+.home .bg-text h1 {
+  font-size: 60px;
+}
+
+.home .bg-text p {
+  font-size: 30px;
+}
+
+.home img {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 80%;
+  border-color: #fff;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.aboutme {
+  padding-bottom: 1PX;
+}
+
+.aboutme h1 {
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=style.css.map */
